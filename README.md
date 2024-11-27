@@ -22,8 +22,8 @@ pip install -r requirements.txt
 
 1. **Clone the Repository**: 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/tonneyshu/minutes_ai.git
+   cd minutes_ai
    ```
 
 2. **Environment Variables**: Create a `.env` file in the root directory of your project and add your Hugging Face token:
@@ -62,18 +62,10 @@ The application includes functions to manage GPU memory effectively, ensuring th
 
 Streamlit's caching mechanism is used to optimize model loading times, ensuring that models are loaded only once during a session.
 
-## License
-
-This project is licensed under a proprietary license by Sarawak Information Systems. All rights reserved. For more details on usage rights and restrictions, please refer to the license agreement included in this repository.
-
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
 
 ## Acknowledgments
 
-- [Streamlit](https://streamlit.io/)
-- [WhisperX](https://github.com/YourGitHub/WhisperX)
-- [LangChain](https://langchain.readthedocs.io/en/latest/)
-
-Feel free to reach out if you have any questions or need further assistance!
+- [WhisperX](https://github.com/m-bain/whisperX)
