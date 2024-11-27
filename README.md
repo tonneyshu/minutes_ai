@@ -2,7 +2,7 @@
 
 ## Overview
 
-**AI Minutes** is a Streamlit application that leverages advanced machine learning models to transcribe audio files and summarize the transcriptions effectively. It utilizes the WhisperX model for audio transcription and the LangChain library for summarization tasks.
+**AI Minutes** is a Streamlit application that leverages OpenAI's Whisper (large-v3) ASR model to transcribe audio files, pyannote's speaker-diarization-3.1 on Hugging Face for speaker diarization and summarize the transcriptions using LangChain's summarization chain on llama-3.1-70b-versatile (Groq API).
 
 ## Features
 
@@ -12,7 +12,7 @@
 
 ## Requirements
 
-Ensure you have Python 3.7 or higher installed. All required packages are listed in the `requirements.txt` file. You can install them using pip:
+Ensure you have Python 3.10 or higher installed. All required packages are listed in the `requirements.txt` file. You can install them using pip:
 
 ```bash
 pip install -r requirements.txt
@@ -23,7 +23,6 @@ pip install -r requirements.txt
 1. **Clone the Repository**: 
    ```bash
    git clone https://github.com/tonneyshu/minutes_ai.git
-   cd minutes_ai
    ```
 
 2. **Environment Variables**: Create a `.env` file in the root directory of your project and add your Hugging Face token:
@@ -61,10 +60,6 @@ The application includes functions to manage GPU memory effectively, ensuring th
 ### Caching
 
 Streamlit's caching mechanism is used to optimize model loading times, ensuring that models are loaded only once during a session.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please create a pull request or open an issue.
 
 ## Acknowledgments
 
