@@ -19,7 +19,7 @@ llm_model = "llama-3.1-70b-versatile"
 whisper_model = "large-v3"
 language = "en"
 device, compute_type = ("cuda", "float16") if torch.cuda.is_available() else ("cpu", "float32")
-batch_size = 15
+batch_size = 12
 chunk_size = 6000
 
 def free_gpu(model):
