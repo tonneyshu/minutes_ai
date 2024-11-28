@@ -2,7 +2,7 @@
 
 ## Overview
 
-![image](https://github.com/user-attachments/assets/474bf3bc-afa6-49f5-810c-22a1912866fe)
+![image](https://github.com/user-attachments/assets/5e74fe85-f888-4d45-b37e-f1ac9f3e0614)
 
 **AI Minutes** is a Streamlit application that leverages OpenAI's Whisper (large-v3) ASR model to transcribe audio files, pyannote's speaker-diarization-3.1 on Hugging Face for speaker diarization and summarize the transcriptions using LangChain's summarization chain on llama-3.1-70b-versatile (Groq API).
 
