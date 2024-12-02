@@ -1,5 +1,3 @@
-# README
-
 ## Overview
 
 ![image](https://github.com/user-attachments/assets/5e74fe85-f888-4d45-b37e-f1ac9f3e0614)
